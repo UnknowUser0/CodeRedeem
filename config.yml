@@ -1,0 +1,11 @@
+# Selec Language
+language: en_US
+# Economy
+economy:
+
+  use-vault: true
+
+# Advance Setting
+additional-settings:
+  
+  example-setting: "value"

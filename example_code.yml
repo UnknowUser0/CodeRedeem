@@ -1,0 +1,28 @@
+# REDEEM CODE
+code: REDEEMCODE123
+
+# Validity date in yyyyMMdd format
+validity: 20241231
+
+# Rewards configuration
+rewards:
+- item: WRITTEN_BOOK
+  count: 1
+  book: great_tale
+- item: DIAMOND_SWORD
+  count: 1
+  enchantments:
+  - type: SHARPNESS
+    level: 5
+  - type: UNBREAKING
+    level: 3
+- item: GOLDEN_APPLE
+  count: 5
+- money: 1000
+
+# Optional: Define how many times the code can be redeemed
+# Use -1 for unlimited
+redeem_limit: 10
+
+# dont change this
+redeem_count: 1

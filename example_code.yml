@@ -1,28 +1,38 @@
-# REDEEM CODE
+# REDEEM CODE (use only capital letters and numbers)
 code: REDEEMCODE123
+
+# Enable or disable the code
+enabled: false
 
 # Validity date in yyyyMMdd format
 validity: 20241231
 
-# Rewards configuration
+# Rewards configuration 
+# Reference to the book YAML file in writtenbook folder
+# level enhantment 1-100
 rewards:
-- item: WRITTEN_BOOK
-  count: 1
-  book: great_tale
-- item: DIAMOND_SWORD
-  count: 1
-  enchantments:
-  - type: SHARPNESS
-    level: 5
-  - type: UNBREAKING
-    level: 3
-- item: GOLDEN_APPLE
-  count: 5
-- money: 1000
+
+  - book: great_tale
+    custom_name: "&6The Great &cTale"
+    count: 1
+     
+  - item: DIAMOND_SWORD
+    custom_name: "&cFire &6Sword"
+    count: 1
+    enchantments:
+      - type: FIRE_ASPECT
+        level: 100
+      - type: UNBREAKING
+        level: 100
+        
+  - item: GOLDEN_APPLE
+    count: 5
+    
+  - money: 1000
 
 # Optional: Define how many times the code can be redeemed
 # Use -1 for unlimited
-redeem_limit: 10
+redeem_limit: 10 
 
-# dont change this
-redeem_count: 1
+#dont change this
+redeem_count: 0

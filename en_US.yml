@@ -1,3 +1,4 @@
+version: 1.0.1
 # Set your langue in this
 
 already_redeemed: "You have already redeemed this code."
@@ -43,6 +44,14 @@ no_title: "The written book must have a title."
 file_exists: "A file with this title already exists. Choose a different title."
 save_success: "The book has been successfully saved as {fileName}."
 save_error: "An error occurred while saving the book."
+usage_enable_code: "Usage: /cr enable <code>"
+usage_disable_code: "Usage: /cr disable <code>"
+code_enabled_successfully: "The code has been enabled successfully."
+code_disabled_successfully: "The code has been disabled successfully."
+error_saving_file: "An error occurred while saving the file."
+invalid_redeem_code: "Invalid redeem code. Please contact the administrator."
+error_enable_code: "Failed to enable code. Because the code has been enabled"
+error_disable_code: "Failed to disable code. Because the code has been disable"
 
 # translate for /cr info <code>
 code_info_header: "Code INFORMATION"
